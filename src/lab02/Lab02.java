@@ -13,8 +13,8 @@ import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
 /**
- *
- * @author 6324569
+ * GitHub Link: https://github.com/QuentinProulx/lab-2
+ * @author 6324569 (Quentin Proulx)
  */
 public class Lab02 extends Application {
     /**

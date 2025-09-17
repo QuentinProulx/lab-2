@@ -6,6 +6,7 @@ package lab02;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
@@ -14,7 +15,12 @@ import javafx.stage.Stage;
  * @author 6324569
  */
 public class Lab02 extends Application {
-    BorderPane borderPane = new BorderPane();
+    Label top = new Label("Random Game");
+    Label bot = new Label("Waiting...");
+    Label lblImage = new Label();
+    
+    StackPane middle = new StackPane(lblImage);
+    BorderPane borderPane = new BorderPane(middle, top, null, bot, null);
     Scene scene = new Scene(borderPane, 250, 300);
     
     /**
